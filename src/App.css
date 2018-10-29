@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+
+}
+li:hover{
+  background-color: gainsboro;
+}
+li:active{
+  background-color: lightgray;
+}
+.App-item{
+  text-align: left;
+}
+
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.resizedTextbox {width: 200px; height: 30px}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(08px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.lp {
+  line-height: 1.6;
+}
+.itemBtn
+{
+  float: right;
+}
+.inp
+{
+  margin-top: 30px;
+}
