@@ -12,7 +12,7 @@ class App extends Component {
         this.handlechange = this.handlechange.bind(this);
         this.txt = React.createRef();
         this.handledel = this.handledel.bind(this);
-        // this.handleEdit = this.handleEdit.bind(this);
+        this.handleEdit = this.handleEdit.bind(this);
         this.handleUpdate = this.handleUpdate.bind(this);
         this.handleCom = this.handleCom.bind(this);
     }
